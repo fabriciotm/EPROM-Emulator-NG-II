@@ -6,9 +6,23 @@
 
 Based on the project by Kris Sekula:
 
-[GitHub](https://github.com/Kris-Sekula/EPROM-EMU-NG)
+**GitHub**: [](https://github.com/Kris-Sekula/EPROM-EMU-NG)
 
-[](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
+**Website**: [](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
+
+**User-Group**: [](https://groups.io/g/eprom-emu-ng)
+
+
+
+I developed a version where the TTL logic was replaced by a CPLD. This made the circuit much smaller. 
+
+Instead of the Arduino Nano I directly integrated an ATMega32u4. This is flashed with the bootloader of the Arduino Micro (Using a simple ISP programmer). After that, the firmware can be flashed via USB at any time using the Arduino IDE.
+
+For the CPLD part a JTAG programmer is needed at the moment. A simple open source JTAG tool based on the FTDI FT2232H is sufficient. With the help of [OpenOCD](http://openocd.org/) the SVF file can be flashed. The Xilinx tools are not needed for this.
+
+To go with it, I designed a case that can be made on a 3D printer. For this purpose, I have kept the housing as simple as possible.
+
+
 
 # Status
 
