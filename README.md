@@ -4,7 +4,11 @@
 
 # EPROM-Emulator-NG-II
 
+Based on the project by Kris Sekula:
 
+[](https://github.com/Kris-Sekula/EPROM-EMU-NG)
+
+[](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
 
 # Status
 
@@ -26,7 +30,13 @@
 
 
 
-## License
+**Case for 3D printing**
+
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/case_preview.jpg)
+
+
+
+# License
 
 The contents of this repository excluding [`Third_Party` directory](https://github.com/DL2DW/EPROM-Emulator-NG-II/third_party) is released under your choice of the following two licences:
 
