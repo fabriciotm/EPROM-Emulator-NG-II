@@ -6,11 +6,11 @@
 
 Based on the project by Kris Sekula:
 
-**GitHub**: [](https://github.com/Kris-Sekula/EPROM-EMU-NG)
+**GitHub**: [[](https://github.com/Kris-Sekula/EPROM-EMU-NG)]()
 
-**Website**: [](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
+**Website**: [[](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)]()
 
-**User-Group**: [](https://groups.io/g/eprom-emu-ng)
+**User-Group**: [[](https://groups.io/g/eprom-emu-ng)]()
 
 
 
