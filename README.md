@@ -8,11 +8,21 @@
 
 # Status
 
-**PCB**:					Version 1.2A developed, ordered and available in the repository
+**PCB**:						Version 1.2A developed, ordered and available in the repository
+
+**BOM:**					must still be created
 
 **CPLD-Code:**		in progress
 
 **Case:**					in progress
+
+
+
+# Preview
+
+**PCB Version 1.2D**
+
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II\images\pcb_preview.jpg)
 
 
 
