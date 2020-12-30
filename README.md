@@ -2,11 +2,11 @@
 
 
 
-# EPROM-Emulator-NG-II
+# EPROM Emulator NG II
 
 Based on the project by Kris Sekula:
 
-[](https://github.com/Kris-Sekula/EPROM-EMU-NG)
+[GitHub](https://github.com/Kris-Sekula/EPROM-EMU-NG)
 
 [](https://mygeekyhobby.com/2020/07/05/eprom-emulator/)
 
