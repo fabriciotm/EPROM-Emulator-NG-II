@@ -22,7 +22,7 @@
 
 **PCB Version 1.2D**
 
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II\images\pcb_preview.jpg)
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/pcb_preview.jpg)
 
 
 
