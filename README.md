@@ -91,7 +91,7 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 # License
 
-The contents of this repository the following license:
+The contents of this repository is released under the following license:
 
 - the "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" (CC BY-NC-SA 4.0) full text of this license is included in the [LICENSE.CC-NC-BY-SA-4.0](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/LICENSE.CC-NC-BY-SA) file and a copy can also be found at https://creativecommons.org/licenses/by-nc-sa/4.0/
 
