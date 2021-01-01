@@ -65,13 +65,13 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 # Status
 
-**PCB**:						Version 1.2A developed, ordered and available in the repository
+- [x] **PCB**: Version 1.2A developed, ordered and available in the repository
 
-**BOM:**					done
+- [x] **BOM:** done
 
-**CPLD-Code:**		in progress
+- [ ] **CPLD-Code:**	in progress
 
-**Case:**					in progress
+- [ ] **Case:** in progress
 
 
 
