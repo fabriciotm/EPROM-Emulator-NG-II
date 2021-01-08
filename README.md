@@ -65,7 +65,7 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 # Status
 
-- [x] **PCB**: Version 1.2A developed, ordered and available in the repository
+- [x] **PCB**: Version 1.2B developed
 
 - [x] **BOM:** done
 
@@ -77,7 +77,7 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 # Preview
 
-**PCB Version 1.2D**
+**PCB Version 1.2B**
 
 ![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/pcb_preview.jpg)
 
