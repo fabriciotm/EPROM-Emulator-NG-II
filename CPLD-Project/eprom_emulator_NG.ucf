@@ -1,0 +1,86 @@
+NET "EN_A<11>"  LOC = "P81"  ;
+NET "EN_A<12>"  LOC = "P82"  ;
+NET "EN_A<13>"  LOC = "P85"  ;
+NET "EN_A<14>"  LOC = "P86"  ;
+NET "EN_A<15>"  LOC = "P87"  ;
+
+NET "EN_RST"  LOC = "P95"  ;
+
+NET "ADLO"  LOC = "P93"  ;
+NET "ADHI"  LOC = "P92"  ;
+NET "DATA"  LOC = "P94"  ;
+NET "SCLK"  LOC = "P22"  ;
+NET "DATA_LD"  LOC = "P23"  ;
+
+NET "EPROM_RESET"  LOC = "P1"  ;
+NET "EPROM_N_RESET"  LOC = "P2"  ;
+
+NET "RAM_A<0>"  LOC = "P33"  ;
+NET "RAM_A<1>"  LOC = "P32"  ;
+NET "RAM_A<2>"  LOC = "P30"  ;
+NET "RAM_A<3>"  LOC = "P29"  ;
+NET "RAM_A<4>"  LOC = "P28"  ;
+NET "RAM_A<5>"  LOC = "P27"  ;
+NET "RAM_A<6>"  LOC = "P25"  ;
+NET "RAM_A<7>"  LOC = "P24"  ;
+NET "RAM_A<8>"  LOC = "P15"  ;
+NET "RAM_A<9>"  LOC = "P14"  ;
+NET "RAM_A<10>"  LOC = "P46"  ;
+NET "RAM_A<11>"  LOC = "P16"  ;
+NET "RAM_A<12>"  LOC = "P20"  ;
+NET "RAM_A<13>"  LOC = "P13"  ;
+NET "RAM_A<14>"  LOC = "P19"  ;
+NET "RAM_A<15>"  LOC = "P17"  ;
+NET "RAM_A<16>"  LOC = "P18"  ;
+
+NET "RAM_D<0>"  LOC = "P34"  ;
+NET "RAM_D<1>"  LOC = "P35"  ;
+NET "RAM_D<2>"  LOC = "P36"  ;
+NET "RAM_D<3>"  LOC = "P37"  ;
+NET "RAM_D<4>"  LOC = "P39"  ;
+NET "RAM_D<5>"  LOC = "P40"  ;
+NET "RAM_D<6>"  LOC = "P41"  ;
+NET "RAM_D<7>"  LOC = "P42"  ;
+
+NET "RAM_CS"  LOC = "P43"  ;
+
+NET "EPROM_A<0>"  LOC = "P59"  ;
+NET "EPROM_A<1>"  LOC = "P61"  ;
+NET "EPROM_A<2>"  LOC = "P64"  ;
+NET "EPROM_A<3>"  LOC = "P66"  ;
+NET "EPROM_A<4>"  LOC = "P68"  ;
+NET "EPROM_A<5>"  LOC = "P71"  ;
+NET "EPROM_A<6>"  LOC = "P73"  ;
+NET "EPROM_A<7>"  LOC = "P76"  ;
+NET "EPROM_A<8>"  LOC = "P74"  ;
+NET "EPROM_A<9>"  LOC = "P72"  ;
+NET "EPROM_A<10>"  LOC = "P65"  ;
+NET "EPROM_A<11>"  LOC = "P70"  ;
+NET "EPROM_A<12>"  LOC = "P78"  ;
+NET "EPROM_A<13>"  LOC = "P77"  ;
+NET "EPROM_A<14>"  LOC = "P79"  ;
+NET "EPROM_A<15>"  LOC = "P80"  ;
+
+NET "EPROM_D<0>"  LOC = "P56"  ;
+NET "EPROM_D<1>"  LOC = "P54"  ;
+NET "EPROM_D<2>"  LOC = "P53"  ;
+NET "EPROM_D<3>"  LOC = "P50"  ;
+NET "EPROM_D<4>"  LOC = "P52"  ;
+NET "EPROM_D<5>"  LOC = "P55"  ;
+NET "EPROM_D<6>"  LOC = "P58"  ;
+NET "EPROM_D<7>"  LOC = "P60"  ;
+
+NET "EPROM_OE"  LOC = "P67"  ;
+NET "EPROM_CS"  LOC = "P63"  ;
+
+NET "RESET"  LOC = "P49"  ;
+
+NET "RAM_WE_CTRL"  LOC = "P91"  ;
+NET "CPLD_ENABLE"  LOC = "P90"  ;
+
+NET "RAM_WE"  LOC = "P12"  ;
+
+NET "readyLED"  LOC = "P4"  ;
+
+# NET "Spare-1"  LOC = "P89"  ;
+# NET "Spare-2"  LOC = "P3"  ;

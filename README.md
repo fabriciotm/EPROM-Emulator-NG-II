@@ -4,6 +4,14 @@
 
 # EPROM Emulator NG II
 
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.2B.jpg)
+
+First Beta Release (PCB V1.2B)
+
+
+
+## Introduction
+
 Based on the project by Kris Sekula:
 
 **GitHub**: https://github.com/Kris-Sekula/EPROM-EMU-NG
@@ -24,7 +32,7 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 
 
-# BOM
+## BOM
 
 
 
@@ -63,33 +71,43 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 
 
-# Status
+## Status
 
-- [x] **PCB**: Version 1.2B developed
+- [x] **PCB**: Version 1.2B published
 
-- [x] **BOM:** done
+- [x] **BOM:** published
 
-- [ ] **CPLD-Code:**	in progress
+- [x] **CPLD-Code:**	First open alpha release 0.5 published
 
 - [ ] **Case:** in progress
 
 
 
-# Preview
+## PCB
 
 **PCB Version 1.2B**
 
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/pcb_preview.jpg)
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/PCB_V1.2B.jpg)
 
 
+
+Current version of the board.
+
+
+
+## Case
 
 **Case for 3D printing**
 
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/case_preview.jpg)
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.2B_with_case.jpg)
 
 
 
-# License
+First test printout of a possible housing.
+
+
+
+## License
 
 The contents of this repository is released under the following license:
 
