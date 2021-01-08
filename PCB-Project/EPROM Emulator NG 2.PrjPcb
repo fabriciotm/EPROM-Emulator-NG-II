@@ -227,21 +227,97 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\EPROM Emulator NG 2.RUL
 DItemRevisionGUID=
 
+[GeneratedDocument25]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\NC Drill\Panel - EPROM Emulator NG 2-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\NC Drill\Panel - EPROM Emulator NG 2-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\NC Drill\Panel - EPROM Emulator NG 2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\NC Drill\Panel - EPROM Emulator NG 2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for EPROM Emulator NG 2\Gerber\Panel - EPROM Emulator NG 2.RUL
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Author
-Value=PCB-Tech
+Name=Version
+Value=1.2
 
 [Parameter2]
-Name=Revision
-Value=A
-
-[Parameter3]
 Name=Title
 Value=Projektname
 
+[Parameter3]
+Name=Revision
+Value=B
+
 [Parameter4]
-Name=Version
-Value=1.2
+Name=Author
+Value=PCB-Tech
 
 [Configuration1]
 Name=Sources
