@@ -71,18 +71,6 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 
 
-## Status
-
-- [x] **PCB**: Version 1.2B published
-
-- [x] **BOM:** published
-
-- [x] **CPLD-Code:**	First open alpha release 0.5 published
-
-- [ ] **Case:** in progress
-
-
-
 ## PCB
 
 **PCB Version 1.2B**
@@ -103,7 +91,7 @@ Current version of the board.
 
 
 
-First test printout of a possible housing.
+Current version of the housing.
 
 
 
