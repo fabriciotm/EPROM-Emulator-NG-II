@@ -115,7 +115,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Panel - EPROM Emulator NG 2.PcbDoc
+DocumentPath=EPROM Emulator NG 2.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -129,7 +129,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RRBADMYA
+DocumentUniqueId=UCRSDZGR
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for EPROM Emulator NG 2\BOM\Bill of Materials-EPROM Emulator NG 2.xlsx
@@ -305,7 +305,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=Version
-Value=1.2
+Value=1.3
 
 [Parameter2]
 Name=Title
@@ -313,11 +313,11 @@ Value=Projektname
 
 [Parameter3]
 Name=Revision
-Value=B
+Value=-
 
 [Parameter4]
 Name=Author
-Value=PCB-Tech
+Value=DiWou
 
 [Configuration1]
 Name=Sources
