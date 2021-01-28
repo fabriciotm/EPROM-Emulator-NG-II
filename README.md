@@ -1,12 +1,6 @@
-![](https://img.shields.io/badge/Status-Prototyp-red)
-
-
-
 # EPROM Emulator NG II
 
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.2B.jpg)
-
-First Beta Release (PCB V1.2B)
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.3.jpg.jpg)
 
 
 
@@ -16,19 +10,59 @@ Based on the project by Kris Sekula:
 
 **GitHub**: https://github.com/Kris-Sekula/EPROM-EMU-NG
 
-**Website**: https://mygeekyhobby.com/2020/07/05/eprom-emulator/
-
-**User-Group**: https://groups.io/g/eprom-emu-ng
-
-
-
 I developed a version where the TTL logic was replaced by a CPLD. This made the circuit much smaller. 
 
 Instead of the Arduino Nano I directly integrated an ATMega32u4. This is flashed with the bootloader of the Arduino Micro (Using a simple ISP programmer). After that, the firmware can be flashed via USB at any time using the Arduino IDE.
 
-For the CPLD part a JTAG programmer is needed at the moment. A simple open source JTAG tool based on the FTDI FT2232H is sufficient. With the help of [OpenOCD](http://openocd.org/) the SVF file can be flashed. The Xilinx tools are not needed for this.
 
-To go with it, I designed a case that can be made on a 3D printer. For this purpose, I have kept the housing as simple as possible.
+
+## PCB
+
+**PCB Version 1.3B**
+
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_PCB_V1.3.jpg)
+
+
+
+Current version of the board.
+
+
+
+## Assembly
+
+The assembly is done from large to small. So first the biggest parts, like CPLD, ATMega, etc. are soldered on. Then in descending order the other parts, except the EEPROM. 
+
+This should be soldered only after the bootloader for the ATMega has been flashed. Otherwise there can be problems with flashing.
+
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_PCB_3D_V1.3.jpg)
+
+When all parts, except the EEPROM, are soldered, it goes to the flashing of the Arduino bootloader.
+
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.3_ISP.jpg)
+
+For this purpose, there is a corresponding connector on the back. The easiest way to flash the bootloader is with Pogo PINs or a simple pin header, which are pressed onto the contacts.
+
+A USBasp can be used for programming, for example.  And with the Arduino IDE the bootloader can then be uploaded.
+
+It is important that the Arduino Micro is selected here.
+
+If the bootloader has been installed successfully, the EEPROM can now be soldered on.
+
+
+
+## Firmware flashing
+
+First the EPROM Emulator NG II can be connected to the PC via USB. With the help of the Arduino IDE the ATMega is programmed first.
+
+The current firmware can be found at https://github.com/Kris-Sekula/EPROM-EMU-NG/tree/master/Firmware.
+
+After that the CPLD has to be programmed. This can be done most easily with a FT232H board. These adapters are available at AliExpress already around $8. And as software xc3sprog is used. This is the easiest and fastest way to flash the CPLD.
+
+At https://github.com/1c3d1v3r/neatPLA/tree/master/programming you can find a practical instruction how to proceed.
+
+Damit ist der EPROM Emulator NG II einsatzbereit.
+
+The software for operation and control can be downloaded from https://github.com/Kris-Sekula/EPROM-EMU-NG/tree/master/Software.
 
 
 
@@ -54,7 +88,7 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 | 14   | Y1                   | Raltron Electronics R2016-16.000-9-1010-TR-NS1 | 16MHz ±10ppm 9pF 200Ω SMD,2.0x1.6mm SMD Crystal              |
 | 15   | F1                   | Littlefuse 1206L150THWR                        | PTC RESET FUSE 8V 1.5A 1206                                  |
 | 16   | F2                   | Littlefuse 1210L020WR                          | PPTC Resettable Fuse, SMD, POLYFUSE 1210L Series, 200 mA, 400 mA, 30 VDC |
-| 17   | C1, C3-C13, C19      | KEMET C0603C104J3RACTU                         | SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 0.1 uF, 25 V,  5%, X7R, C Series |
+| 17   | C1, C3-C13, C19      | Murata GRM155R71A104KA01                       | 0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)      |
 | 18   | C2, C14              | KEMET C0603C105K3RACTU                         | 1F Multilayer Ceramic Capacitor (MLCC) 25 V 10% X7R dielectric C SMD max op. temp. +125C |
 | 19   | C15, C16             | KEMET C0603C220J5RACTU                         | Cap Ceramic 22pF 50V X7R 5% SMD 0603 125°C Punched Paper T/R |
 | 20   | C17, C18             | KEMET C0805C106K8RACTU                         | CAP, 10µF, 10V, 10%, X7R, 0805                               |
@@ -71,33 +105,13 @@ To go with it, I designed a case that can be made on a 3D printer. For this purp
 
 
 
-## PCB
+If you liked my project, I would be very happy about a small coffee donation.
 
-**PCB Version 1.2B**
-
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/PCB_V1.2B.jpg)
-
-
-
-Current version of the board.
-
-
-
-## Case
-
-**Case for 3D printing**
-
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.2B_with_case.jpg)
-
-
-
-Current version of the housing.
-
-
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R62T6RN)
 
 ## License
 
-The contents of this repository is released under the following license:
+The content of this repository, except for the Arduino code is released under the following license:
 
 - the "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" (CC BY-NC-SA 4.0) full text of this license is included in the [LICENSE.CC-NC-BY-SA-4.0](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/LICENSE.CC-NC-BY-SA) file and a copy can also be found at https://creativecommons.org/licenses/by-nc-sa/4.0/
 
