@@ -21,7 +21,8 @@
 -- Revision					0.3  - Code optimizations
 -- Revision					0.4  - Adaptations to PCB version 1.2a
 -- Revision					0.5  - Adaptations for ATMega Unified Version '2.0rc3unified'
--- Additional Comments: Version 0.5 = first open Alpha Release
+-- Revision					1.0  - Error correction with external reset line
+-- Additional Comments: 
 -- License:					© 2020-2021 by Dirk Wouters, DL2DW
 --
 --								This hardware design is licensed under
@@ -59,7 +60,8 @@ entity eprom_emulator_ng is
 					RAM_WE_CTRL						:	in		std_logic;										-- /WE Signal for RAM, coming from ATMega
 					RAM_WE							:	out	std_logic;										-- /WE Signal for RAM from CPLD to RAM
 					CPLD_ENABLE						:	in		std_logic;										-- Enable control signal for CPLD
-					readyLED							:	out	std_logic										-- Ready LED
+					readyLED							:	out	std_logic;										-- Ready LED
+					Spare1							:	out	std_logic
 					
 					);
 					
@@ -113,8 +115,8 @@ begin
 		EPROM_D <= RAM_D when (epromEna = '1' and CPLD_ENABLE = '0') else (others => 'Z');
 
 		RESET <= EN_RST when (CPLD_ENABLE = '0') else 'Z';
-		EPROM_RESET <= not EN_RST when (CPLD_ENABLE = '0') else 'Z';
-		EPROM_N_RESET <= EN_RST when (CPLD_ENABLE = '0') else 'Z';
+		EPROM_RESET <= EN_RST when (CPLD_ENABLE = '0') else 'Z';
+		EPROM_N_RESET <= not EN_RST when (CPLD_ENABLE = '0') else 'Z';
 
 		RAM_CS <= '0' when (CPLD_ENABLE = '0') else 'Z';
 		RAM_WE <= RAM_WE_CTRL when (CPLD_ENABLE = '0') else 'Z';
@@ -122,5 +124,7 @@ begin
 		RAM_A(RAM_A'high) <= '0';
 
 		readyLED <= not CPLD_ENABLE;
+		
+		Spare1 <= '0';
 		
 end dl2dw;

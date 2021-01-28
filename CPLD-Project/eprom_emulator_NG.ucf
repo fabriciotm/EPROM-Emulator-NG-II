@@ -82,5 +82,5 @@ NET "RAM_WE"  LOC = "P12"  ;
 
 NET "readyLED"  LOC = "P4"  ;
 
-# NET "Spare-1"  LOC = "P89"  ;
-# NET "Spare-2"  LOC = "P3"  ;
+NET "Spare1"  LOC = "P89"  ;
+# NET "Spare2"  LOC = "P3"  ;
