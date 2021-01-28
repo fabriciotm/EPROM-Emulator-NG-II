@@ -60,7 +60,7 @@ After that the CPLD has to be programmed. This can be done most easily with a FT
 
 At https://github.com/1c3d1v3r/neatPLA/tree/master/programming you can find a practical instruction how to proceed.
 
-Damit ist der EPROM Emulator NG II einsatzbereit.
+Now the EPROM Emulator NG II is ready for use.
 
 The software for operation and control can be downloaded from https://github.com/Kris-Sekula/EPROM-EMU-NG/tree/master/Software.
 
