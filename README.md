@@ -1,6 +1,6 @@
 # EPROM Emulator NG II
 
-![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.3.jpg.jpg)
+![](https://github.com/DL2DW/EPROM-Emulator-NG-II/blob/main/images/EPROM_Emulator_NG_II_V1.3.jpg)
 
 
 
